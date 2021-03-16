@@ -47,8 +47,7 @@ h1.aileron-text{
     color: #116466;
     font-size: calc(150% + 1vw + 1vh);
     font-weight: 700;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
+    padding-top: 2vw;
 }
 
 h3.aileron-text{
@@ -122,7 +121,7 @@ a,a:hover{
     padding: 0;
     margin: 0;
 }
-.row.align-items-center{
+.align-items-center{
     min-height: 90vh;
     max-height: 100%;
     margin-left: 0;
@@ -135,6 +134,10 @@ a,a:hover{
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+}
+
+.row{
+    padding: 1vw 0;
 }
 
 .featured-project-cards-col{
@@ -270,8 +273,63 @@ button.navbar-toggler{
     color:#d1e8e2 ;
     background-image: none;
 }
+.project-col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 210px;
 
+}
+.project-img{
+    width: 100%;
+    height: 100%;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+}
 
+h3.project-page-h3{
+    text-align: left;
+    padding-top: 0;
+    height: max-content;
+    
+}
+
+.source-code{
+    color: #D9B08c;
+    font-family: ailerons;
+    font-size: calc(1% + 0.8vw + 0.8vh);
+}
+
+.project-page-url{
+    color: #116466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(1% + 0.9vw + 0.9vh);
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgb(43, 43, 43);
+    border-bottom: 1px solid #d1e8e228;
+}
+
+.project-page-url:hover{
+    color: #d1e8e283;
+}
+
+#project-page-container{
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 0 7vw;
+}
+
+hr{
+    border-top: 2px solid #d1e8e2;
+    margin: 0;
+}
+
+.project-card{
+    background-image: linear-gradient(#d1e8e20a,rgba(255, 255, 255, 0.10),#d1e8e20a);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 8px #d1e8e273;
+}
 
 /* .self-portrait-background:before
 {
